@@ -4,7 +4,29 @@
     align-items: center;
     justify-content: center;
     margin-top: 3rem;
-    height: 30vh;
+    gap: 2rem;
+    height: 40vh;
     width: 80vw;
-    background-color: blueviolet;
+    border: solid black;
+}
+.buttonBorderColor{
+    background: linear-gradient( 45deg, red 40%, rgba(0, 0, 0, 0.665), grey ) ;
+    border: none;
+    border-radius: .5rem;
+    padding: .2rem;
+    cursor: pointer;
+    transition-property: box-shadow ;
+    transition-duration: .5s ;
+    transition-timing-function: linear ;
+}
+.buttonBorderColor:hover{
+    background: linear-gradient( 240deg, red 40%, rgba(0, 0, 0, 0.665), grey ) ;
+    box-shadow: red 0 0 12px;
+    transition-duration: .2s ;
+}
+.buttonBorderColor__div{
+    color: white;
+    background-color: black;
+    border-radius: .5rem;
+    padding: 0.5rem;
 }
