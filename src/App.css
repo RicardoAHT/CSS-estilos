@@ -1,4 +1,36 @@
 .app{
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+}
+.containerColumn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+    gap: 2rem;
+    height: 40vh;
+    width: 80vw;
+    border: solid black;
+}
+.containerColumnImages{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+    gap: 2rem;
+    width: 80vw;
+    border: solid crimson;
+}
+.section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.footer{
+    height: 20vh;
 }

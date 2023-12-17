@@ -1,23 +1,13 @@
-.containerColumn{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 3rem;
-    gap: 2rem;
-    height: 40vh;
-    width: 80vw;
-    border: solid black;
-}
 .buttonBorderColor{
-    background: linear-gradient( 45deg, red 40%, rgba(0, 0, 0, 0.665), grey ) ;
     border: none;
     border-radius: .5rem;
+    background: linear-gradient( 45deg, red 40%, rgba(0, 0, 0, 0.665), grey ) ;
     padding: .2rem;
     cursor: pointer;
     transition-property: box-shadow ;
     transition-duration: .5s ;
     transition-timing-function: linear ;
+    width: 5rem;
 }
 .buttonBorderColor:hover{
     background: linear-gradient( 240deg, red 40%, rgba(0, 0, 0, 0.665), grey ) ;
