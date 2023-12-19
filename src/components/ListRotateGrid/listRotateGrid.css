@@ -1,0 +1,20 @@
+.circle1{
+    width: 140px; /* Del tamaño exacto para crear un cuadrado*/
+    display: flex;
+    flex-wrap: wrap;
+    animation: turn1 10s infinite linear;
+    /*mix-blend-mode: screen;*/
+}
+.circle2{
+    animation: turn2 15s infinite linear;
+}
+@keyframes turn1 {
+    to{
+        transform: rotate(1turn);
+    }
+}
+@keyframes turn2 {
+    to{
+        transform: rotate(-1turn);
+    }
+}

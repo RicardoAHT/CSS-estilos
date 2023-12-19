@@ -5,6 +5,7 @@
     align-items: center;
 }
 .containerColumn{
+    background-color: rgba(128, 128, 128, 0.585);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -16,6 +17,7 @@
     border: solid black;
 }
 .containerColumnImages{
+    background-color: rgba(128, 128, 128, 0.585);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -33,4 +35,12 @@
 }
 .footer{
     height: 20vh;
+}
+.logoGrande{
+    width: 180px;
+    height: 180px;
+}
+.logo{
+    width: 70px;
+    height: 70px;
 }
