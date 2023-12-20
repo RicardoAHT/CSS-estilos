@@ -6,6 +6,7 @@ import "./App.css"
 import "./components/ButtonBorderColor/buttonBorderColor.css"
 import "./components/ImagesAppear/imageAppear.css"
 import "./components/ListRotateGrid/listRotateGrid.css"
+import "./components/Loading/loading.css"
 
 
 

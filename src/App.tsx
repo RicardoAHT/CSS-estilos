@@ -2,12 +2,16 @@ import React from 'react'
 import ButtonBorderColor from './components/ButtonBorderColor/ButtonBorderColor'
 import ImageAppear from './components/ImagesAppear/ImageAppear'
 import ListRotateGrid from "./components/ListRotateGrid/ListRotateGrid"
+import Loading from "./components/Loading/Loading"
 
 const App = () => {
   return (
     <div className='app'>
       <div className='containerColumn'>
         <ButtonBorderColor/>
+      </div>
+      <div className='containerColumn'>
+        <Loading/>
       </div>
       <div className='containerColumnImages'>
         <ListRotateGrid/>
