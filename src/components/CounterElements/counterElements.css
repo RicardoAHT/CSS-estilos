@@ -1,0 +1,24 @@
+.iconContainer{
+    position: relative;
+
+}
+.fa-solid{
+    color: blue;
+    font-size: 1.7rem;
+
+}
+.counter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 1.15rem;
+    height: 1.15rem;
+    font-weight: bold;
+    font-size: .57rem;
+    background-color: red;
+    color: ghostwhite;
+    position: absolute;
+    left: 80%;
+    top: -40%;
+}

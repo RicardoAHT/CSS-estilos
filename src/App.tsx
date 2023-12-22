@@ -3,12 +3,17 @@ import ButtonBorderColor from './components/ButtonBorderColor/ButtonBorderColor'
 import ImageAppear from './components/ImagesAppear/ImageAppear'
 import ListRotateGrid from "./components/ListRotateGrid/ListRotateGrid"
 import Loading from "./components/Loading/Loading"
+import CounterElements from './components/CounterElements/CounterElements'
 
 const App = () => {
   return (
     <div className='app'>
       <div className='containerColumn'>
         <ButtonBorderColor/>
+      </div>
+      <div className='containerColumn'>
+        <h2>.counterElement</h2>
+        <CounterElements/>
       </div>
       <div className='containerColumn'>
         <Loading/>
