@@ -5,6 +5,7 @@ import ListRotateGrid from "./components/ListRotateGrid/ListRotateGrid"
 import Loading from "./components/Loading/Loading"
 import CounterElements from './components/CounterElements/CounterElements'
 import BasicHookForm from './components/ReactHookForm/BasicHookForm'
+import ImageFromSide from './components/ImageFromSide/ImageFromSide'
 
 const App = () => {
   return (
@@ -27,6 +28,9 @@ const App = () => {
       </div>
       <div className='containerColumnImages'>
         <ImageAppear/>
+      </div>
+      <div className='containerColumnImages'>
+        <ImageFromSide/>
       </div>
       <footer className='footer'></footer>
     </div>
