@@ -7,15 +7,15 @@
     width: 370px;
 }
 .imageFromSide{
-
+    
 }
 /*! Animacion */
-@keyframes show{
-    from{
+@keyframes showFromSide{
+    from{ /*? pude ser 0%*/
         opacity: 0;
         transform: translateX(100%); /*? Positivo desde la izquierda - negativo desde la derecha*/
     }
-    to{
+    to{ /*? pude ser 100%*/
         opacity: 1;
         transform: translateX(0%);
     }
@@ -24,7 +24,7 @@
     view-timeline-name: --image;
     view-timeline-axis: block;
     animation-timeline: --image;
-    animation-name: show;
+    animation-name: showFromSide;
     animation-range: entry 25% cover 30%;
     animation-fill-mode: both;
 }
