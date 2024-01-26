@@ -1,0 +1,34 @@
+.accordion{
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    gap: 1rem;
+    width: 400px;
+}
+.accordion__details__container{
+    background-color: ghostwhite;
+}
+.accordion__summary__level1{
+    cursor: pointer;
+    background-color: blue;
+    list-style: none; /*? Elimino el simbolo */
+    padding: 1rem 1rem 1rem .5rem;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.accordion__summary__level2{
+    background-color: gray;
+    font-weight: 550;
+    padding-left: 1rem ;
+}
+.accordion__p__level1{
+    padding-left: 1rem;
+}
+.accordion__ul__level1{
+    list-style: none;
+    padding-left: 1rem;
+}
+.accordion__ul__level2{
+    list-style: none;
+    padding-left: 2rem;
+}

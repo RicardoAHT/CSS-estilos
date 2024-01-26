@@ -6,10 +6,14 @@ import Loading from "./components/Loading/Loading"
 import CounterElements from './components/CounterElements/CounterElements'
 import BasicHookForm from './components/ReactHookForm/BasicHookForm'
 import ImageFromSide from './components/ImageFromSide/ImageFromSide'
+import Accordion from './components/Accordion/Accordion'
 
 const App = () => {
   return (
     <div className='app'>
+      <div className='containerColumn'>
+        <Accordion/>
+      </div>
       <div className='containerColumn'>
         <ButtonBorderColor/>
       </div>
