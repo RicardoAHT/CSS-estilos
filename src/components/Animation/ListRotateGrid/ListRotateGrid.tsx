@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ListRotateGrid = () => {
+const ListRotateGrid: React.FC = () => {
   return (
     <div>
         <div className='circle1'>

@@ -1,6 +1,6 @@
 import React from 'react'
 
-const buttonBorderColor = () => {
+const ButtonBorderColor: React.FC = () => {
   return (
     <section className="section">
       <h2> .buttonBorderColor </h2>
@@ -13,7 +13,7 @@ const buttonBorderColor = () => {
   )
 }
 
-export default buttonBorderColor
+export default ButtonBorderColor
 
 
 

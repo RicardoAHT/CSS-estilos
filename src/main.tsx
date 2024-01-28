@@ -3,20 +3,22 @@ import ReactDOM from 'react-dom/client'
 import App from './App.tsx'
 import './index.css'
 import "./App.css"
-import "./components/CounterElements/counterElements.css"
-import "./components/ButtonBorderColor/buttonBorderColor.css"
-import "./components/ImagesAppear/imageAppear.css"
-import "./components/ListRotateGrid/listRotateGrid.css"
-import "./components/Loading/loading.css"
-import "./components/ImageFromSide/imageFromSide.css"
-import "./components/Accordion/accordion.css"
-
-
-
+/*! Animations */
+import "./components/Animation/CounterElements/counterElements.css"
+import "./components/Animation/ImageFromSide/imageFromSide.css"
+import "./components/Animation/ImagesAppear/imageAppear.css"
+import "./components/Animation/ListRotateGrid/listRotateGrid.css"
+import "./components/Animation/Loading/loading.css"
+/*! Layouts */
+import "./components/Layout/Accordion/accordion.css"
+/*! Paginas */
+import { HashRouter } from 'react-router-dom'
 
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <HashRouter>
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>,
+  </HashRouter>
 )

@@ -1,42 +1,19 @@
 import React from 'react'
-import ButtonBorderColor from './components/ButtonBorderColor/ButtonBorderColor'
-import ImageAppear from './components/ImagesAppear/ImageAppear'
-import ListRotateGrid from "./components/ListRotateGrid/ListRotateGrid"
-import Loading from "./components/Loading/Loading"
-import CounterElements from './components/CounterElements/CounterElements'
-import BasicHookForm from './components/ReactHookForm/BasicHookForm'
-import ImageFromSide from './components/ImageFromSide/ImageFromSide'
-import Accordion from './components/Accordion/Accordion'
+import { Route, Routes } from 'react-router-dom'
+import HomePage from './Pages/HomePage'
+import AnimationsPage from './Pages/AnimationsPage'
+import LayoutComponents from './Pages/LayoutComponentsPage'
 
-const App = () => {
+
+const App: React.FC = () => {
   return (
     <div className='app'>
-      <div className='containerColumn'>
-        <Accordion/>
-      </div>
-      <div className='containerColumn'>
-        <ButtonBorderColor/>
-      </div>
-      <div className='containerColumn'>
-        <BasicHookForm/>
-      </div>
-      <div className='containerColumn'>
-        <h2>.counterElement</h2>
-        <CounterElements/>
-      </div>
-      <div className='containerColumn'>
-        <Loading/>
-      </div>
-      <div className='containerColumnImages'>
-        <ListRotateGrid/>
-      </div>
-      <div className='containerColumnImages'>
-        <ImageAppear/>
-      </div>
-      <div className='containerColumnImages'>
-        <ImageFromSide/>
-      </div>
-      <footer className='footer'></footer>
+      <Routes>
+        <Route path='/' element={<HomePage/>}/>
+        <Route path='/animations' element={<AnimationsPage/>}/>
+        <Route path='/layouts' element={<LayoutComponents/>}/>
+      </Routes>
+      <footer className='footer'>Footer</footer>
     </div>
   )
 }

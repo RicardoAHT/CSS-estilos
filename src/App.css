@@ -4,6 +4,27 @@
     justify-content: center;
     align-items: center;
 }
+/*! Barra de navegacion */
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed; 
+    left: 0; /* Posiciono en la izquierda el elemento*/
+    top: 0; /* Posiciono desde el inicio superior el elemento*/
+    height: 100%;
+    width: 70px;
+    background-color: black;
+}
+.nav__ul{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    list-style: none;
+}
+.nav__ul__li{
+    cursor: pointer;
+}
 .containerColumn{
     background-color: rgba(128, 128, 128, 0.585);
     display: flex;
