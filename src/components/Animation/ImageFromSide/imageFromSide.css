@@ -1,14 +1,12 @@
-.container__imageAppear{
+.container__imageFromSide{
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    flex-wrap: wrap;
+    align-items: center;
+    padding: 1rem;
     gap: 1rem;
-    background-color: rgba(128, 128, 128, 0.429);
-    width: 370px;
 }
-.imageFromSide{
-    
-}
+
 /*! Animacion */
 @keyframes showFromSide{
     from{ /*? pude ser 0%*/

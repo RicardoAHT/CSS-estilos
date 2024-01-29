@@ -1,9 +1,9 @@
 import React from 'react'
 
-const ImageAppear = () => {
+const ImageAppear: React.FC = () => {
   return (
     <section className='section'>
-        <h2>.imageAppear</h2>
+        <h3 className='h3'>.imageAppear</h3>
         <div className='container__imageAppear'>
             <img 
                 className='imageAppear' 
@@ -12,39 +12,19 @@ const ImageAppear = () => {
             />
             <img 
                 className='imageAppear' 
-                src="/images/RiverPlate.png" 
-                alt="River Plate badge" 
+                src="/images/typescript.png" 
+                alt="typescript Logo" 
             />
             <img 
                 className='imageAppear' 
-                src="/images/ReactNative2.webp" 
-                alt="React Native Logo" 
+                src="/images/typescript.png" 
+                alt="typescript Logo" 
             />
             <img 
                 className='imageAppear' 
-                src="/images/Hisoka4.jpeg" 
-                alt="Hisoka" 
-            />
-            <img 
-                className='imageAppear' 
-                src="/images/programadorLaptop.jpg" 
-                alt="Programador" 
-            />
-            <img 
-                className='imageAppear' 
-                src="/images/DevBrujula.png" 
-                alt="Brujula" 
-            />
-            <img 
-                className='imageAppear' 
-                src="/images/hello-world.webp" 
-                alt="Hello world" 
-            />
-            <img 
-                className='imageAppear' 
-                src="/images/avatar_work.jpeg" 
-                alt="Avatar" 
-            />      
+                src="/images/typescript.png" 
+                alt="typescript Logo" 
+            />   
         </div>
     </section>
   )

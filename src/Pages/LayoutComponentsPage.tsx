@@ -9,7 +9,7 @@ const LayoutComponentsPage: React.FC = () => {
   return (
     <div>
       <NavBar/>
-      <main>
+      <main className='main'>
         <div className='containerColumn'>
           <Accordion/>
         </div>

@@ -25,28 +25,31 @@
 .nav__ul__li{
     cursor: pointer;
 }
-.containerColumn{
-    background-color: rgba(128, 128, 128, 0.585);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 3rem;
-    gap: 2rem;
-    height: 40vh;
-    width: 80vw;
-    border: solid black;
+/*? Main */
+.main{
+    margin-left: 90px;
 }
-.containerColumnImages{
-    background-color: rgba(128, 128, 128, 0.585);
+.containerColumn{
+    background-color: rgba(50, 50, 50, 0.956);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 3rem;
-    gap: 2rem;
-    width: 80vw;
-    border: solid crimson;
+    margin-top: 2rem;
+    gap: 1rem;
+    width: 200px;
+    border: solid blue;
+}
+h1{
+    margin: 2rem;
+    color: rgb(25, 25, 167);
+    text-shadow: 2px 2px 2px black;
+    text-align: center;
+}
+.h3{
+    color: rgb(25, 25, 167);
+    text-shadow: 1px 1px 1px black;
+    text-align: center;
 }
 .section{
     display: flex;

@@ -11,6 +11,7 @@ import "./components/Animation/ListRotateGrid/listRotateGrid.css"
 import "./components/Animation/Loading/loading.css"
 /*! Layouts */
 import "./components/Layout/Accordion/accordion.css"
+import "./components/Layout/ButtonBorderColor/buttonBorderColor.css"
 /*! Paginas */
 import { HashRouter } from 'react-router-dom'
 

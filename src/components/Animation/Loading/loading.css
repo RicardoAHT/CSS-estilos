@@ -1,14 +1,20 @@
 .loading{
     display: flex;
+    flex-direction: column;
     gap: 1rem;
+    padding: .5rem;
 }
+.loading__container{
+    display: flex;
+}
+
+/*? Animation*/
 .pulser{
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     background-color: #09f;
     border-radius: 50%;    
 }
-
 .pulser:first-child{
     /*transition-delay: 0s ;*/
     animation: loader .6s ease-in-out alternate infinite;
@@ -22,7 +28,6 @@
     animation: loader .6s ease-in-out alternate .4s infinite;
     transition-delay: 700ms ;
 }
-
 @keyframes loader{
 
     to{

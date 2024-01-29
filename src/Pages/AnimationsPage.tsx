@@ -10,22 +10,23 @@ const AnimationsPage: React.FC = () => {
   return (
     <div>
       <NavBar/>
-      <div className='containerColumn'>
-        <h2>.counterElement</h2>
-        <CounterElements/>
-      </div>
-      <div className='containerColumn'>
-        <Loading/>
-      </div>
-      <div className='containerColumnImages'>
-        <ListRotateGrid/>
-      </div>
-      <div className='containerColumnImages'>
-        <ImageAppear/>
-      </div>
-      <div className='containerColumnImages'>
-        <ImageFromSide/>
-      </div>
+      <main className='main'>
+        <div className='containerColumn'>
+          <CounterElements/>
+        </div>
+        <div className='containerColumn'>
+          <Loading/>
+        </div>
+        <div className='containerColumn'>
+          <ListRotateGrid/>
+        </div>
+        <div className='containerColumn'>
+          <ImageAppear/>
+        </div>
+        <div className='containerColumn'>
+          <ImageFromSide/>
+        </div>
+      </main>
     </div>
   )
 }

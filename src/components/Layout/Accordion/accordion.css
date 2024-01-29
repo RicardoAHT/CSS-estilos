@@ -2,8 +2,9 @@
     display: flex;
     flex-direction: column;
     overflow-y: scroll;
-    gap: 1rem;
-    width: 400px;
+    padding: .5rem;
+    gap: .5rem;
+    width: 170px;
 }
 .accordion__details__container{
     background-color: ghostwhite;
@@ -12,7 +13,7 @@
     cursor: pointer;
     background-color: blue;
     list-style: none; /*? Elimino el simbolo */
-    padding: 1rem 1rem 1rem .5rem;
+    padding: .2rem .2rem .2rem .1rem;
     font-weight: bold;
     text-decoration: underline;
 }

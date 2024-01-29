@@ -1,13 +1,12 @@
+.imageAppear{
+    padding: .5rem;
+}
 .container__imageAppear{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 1rem;
-    background-color: rgba(128, 128, 128, 0.429);
-    width: 370px;
-}
-.imageAppear{
-
+    width: 190px;
 }
 /*! Animacion */
 @keyframes show{
