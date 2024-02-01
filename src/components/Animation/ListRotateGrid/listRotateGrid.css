@@ -5,6 +5,7 @@
     animation: turn1 10s infinite linear;
     /*mix-blend-mode: screen;*/
 }
+
 .circle2{
     animation: turn2 15s infinite linear;
 }
