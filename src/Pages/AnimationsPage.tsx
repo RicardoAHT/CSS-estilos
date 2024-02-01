@@ -5,6 +5,7 @@ import ListRotateGrid from '../components/Animation/ListRotateGrid/ListRotateGri
 import ImageAppear from '../components/Animation/ImagesAppear/ImageAppear'
 import ImageFromSide from '../components/Animation/ImageFromSide/ImageFromSide'
 import NavBar from '../components/Shared/NavBar'
+import ImagesGalery from '../components/Animation/ImagesGalery/ImagesGalery'
 
 const AnimationsPage: React.FC = () => {
   return (
@@ -25,6 +26,9 @@ const AnimationsPage: React.FC = () => {
         </div>
         <div className='containerColumn'>
           <ImageFromSide/>
+        </div>
+        <div className='containerColumn'>
+          <ImagesGalery/>
         </div>
       </main>
     </div>

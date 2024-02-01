@@ -9,6 +9,7 @@ import "./components/Animation/ImageFromSide/imageFromSide.css"
 import "./components/Animation/ImagesAppear/imageAppear.css"
 import "./components/Animation/ListRotateGrid/listRotateGrid.css"
 import "./components/Animation/Loading/loading.css"
+import "./components/Animation/ImagesGalery/imagesGalery.css"
 /*! Layouts */
 import "./components/Layout/Accordion/accordion.css"
 import "./components/Layout/ButtonBorderColor/buttonBorderColor.css"

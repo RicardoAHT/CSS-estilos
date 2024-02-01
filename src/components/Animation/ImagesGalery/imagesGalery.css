@@ -1,0 +1,20 @@
+.imagesGalery{
+    display: flex;
+    width: 190px;
+    height: 77px;
+}
+
+.imagesGalery img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+
+.imagesGalery img:hover{
+    cursor: crosshair;
+    width: 70px;
+    opacity: 1;
+    filter: contrast(120%);
+}
