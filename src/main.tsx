@@ -13,6 +13,7 @@ import "./components/Animation/ImagesGalery/imagesGalery.css"
 /*! Layouts */
 import "./components/Layout/Accordion/accordion.css"
 import "./components/Layout/ButtonBorderColor/buttonBorderColor.css"
+import "./components/Layout/WhatsappButton/whatsappButton.css"
 /*! Paginas */
 import { HashRouter } from 'react-router-dom'
 

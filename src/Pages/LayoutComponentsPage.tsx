@@ -3,6 +3,7 @@ import Accordion from '../components/Layout/Accordion/Accordion'
 import ButtonBorderColor from '../components/Layout/ButtonBorderColor/ButtonBorderColor'
 import BasicHookForm from '../components/Layout/ReactHookForm/BasicHookForm'
 import NavBar from '../components/Shared/NavBar'
+import WhatsappButton from '../components/Layout/WhatsappButton/WhatsappButton'
 
 
 const LayoutComponentsPage: React.FC = () => {
@@ -15,6 +16,9 @@ const LayoutComponentsPage: React.FC = () => {
         </div>
         <div className='containerColumn'>
           <ButtonBorderColor/>
+        </div>
+        <div className='containerColumn'>
+          <WhatsappButton/>
         </div>
         <div className='containerColumn'>
           <BasicHookForm/>

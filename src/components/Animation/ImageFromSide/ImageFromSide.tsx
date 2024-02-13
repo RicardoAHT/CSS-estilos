@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ImageFromSide = () => {
+const ImageFromSide: React.FC  = () => {
   return (
     <section className='section'>
         <div className='container__imageFromSide'>

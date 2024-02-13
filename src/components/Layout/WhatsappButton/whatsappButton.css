@@ -1,0 +1,12 @@
+.whatsappButton{
+    /*position: fixed;
+    bottom: 70px;
+    right: 50px;*/
+}
+.whatsappButton img{
+    width: 40px;
+    transition-duration: 700ms;
+}
+.whatsappButton img:hover{
+    transform: scale(1.2);
+}
